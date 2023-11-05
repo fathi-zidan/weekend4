@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="operation.css">
+    <title>Flights operation</title>
+</head>
+
+<body>
+    <section class="container">
+    <section id="addSec">
+        <h1>Add a Flight</h1>
+        <form id="addFlightForm" class="forms">
+            <label for="from">From:</label>
+            <input type="text" id="from" required><br>
+
+            <label for="to">To:</label>
+            <input type="text" id="to" required><br>
+
+            <label for="price">Price:</label>
+            <input type="text" id="price" required><br>
+
+            <label for="departDate">Departure Date:</label>
+            <input type="date" id="departDate" required><br>
+
+            <label for="returnDate">Return Date:</label>
+            <input type="date" id="returnDate" required><br>
+
+            <button type="submit" class="btn">Add Flight</button>
+        </form>
+    </section>
+
+    <section id="searchSec">
+        <h1>Search Flights</h1>
+        <form id="searchForm" class="forms">
+            <label for="from">From:</label>
+            <input type="text" id="from_search" required><br>
+
+            <label for="to">To:</label>
+            <input type="text" id="to_search" required><br>
+
+            <button type="submit" class="btn">Search Flights</button>
+        </form>
+
+    </section>
+
+    <section id="sortSec">
+        <h1>Sort Flights by Price</h1>
+        <button id="sortBTN" class="btn">Sort Flights</button>
+    </section>
+
+</section>
+
+<section id="footer">
+
+</section>
+
+    <script src="operations.js"></script>
+</body>
+
+</html>
